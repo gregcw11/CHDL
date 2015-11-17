@@ -1,0 +1,25 @@
+{
+    "name": "CHDL",
+    "description": "Don't tell your friendsgiving staff.",
+    "version": "1.0",
+    "permissions": [
+        "tabs",
+        "contextMenus",
+        "downloads",
+        "http://coursehero.com/*",
+        "https://coursehero.com/*",
+        "http://www.coursehero.com/*",
+        "https://www.coursehero.com/*"
+    ],
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+    "browser_action": {
+        "default_title": "Right click to see options."
+    },
+    "icons": {
+        "48": "icon48.jpeg"
+    },
+    "manifest_version": 2
+}

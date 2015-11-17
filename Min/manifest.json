@@ -4,6 +4,8 @@
     "version": "1.0",
     "permissions": [
         "tabs",
+        "contextMenus",
+        "downloads",
         "http://coursehero.com/*",
         "https://coursehero.com/*",
         "http://www.coursehero.com/*",
@@ -14,8 +16,7 @@
         "persistent": false
     },
     "browser_action": {
-        "default_title": "Unblur!",
-        "default_popup": "popup.html"
+        "default_title": "Right click to see options."
     },
     "icons": {
         "48": "icon48.jpeg"
