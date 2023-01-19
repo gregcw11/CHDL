@@ -14,5 +14,4 @@ You must be on a document page on CourseHero to use the extension from either th
 The extension works due to a weird permission error on CourseHero's end that fails to check what files users should be able to access.
 
 Singular file downloads seem to have a very high success rate when the entire document is shown (even if most pages are blurred).
-
 Try out the "Download all files from this course." option to start downloading relevant files - it shouldn't be more than a handful. 
